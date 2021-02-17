@@ -1,24 +1,15 @@
-# README
+# rails-practice
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 目的
+Ruby on Railsの挙動を理解したりいろいろ試すための練習用のリポジトリ．
 
-Things you may want to cover:
+## バージョン
+```
+Ruby 2.6.2
+Rails 5.2.3
+```
+その他のgemのバージョンはGemfileを確認のこと．
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## ToDo
+- アセット読み込みの環境による違いを調査．
+- アセットパイプラインに関する設定をいろいろ試して理解．
