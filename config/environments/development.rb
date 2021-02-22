@@ -1,9 +1,8 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
-  # In the development environment your application's code is reloaded on
-  # every request. This slows down response time but is perfect for development
-  # since you don't have to restart the web server when you make code changes.
+  # falseに設定するとリクエストのたびにコードを読み込むようになる
+  # そのため，処理は重くなるが，コード変更のたびにサーバを立て直す必要がないので開発環境ではこのモードにする
   config.cache_classes = false
 
   # Do not eager load code on boot.
